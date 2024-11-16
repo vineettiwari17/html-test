@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <!-- In the html page we used form tag to create the forms -->
+
+    <!-- we use input tag to create the structure of forms -->
+
+    <form >
+        Name: <input type="text" placeholder="Enter your Name"> <hr>
+        Email: <input type="email" placeholder="Enter your valid Email"> <hr>
+        Password: <input type="password" placeholder="Enter the your Email password"> <hr>
+        <input type="submit"> <hr>
+    </form>
+
+    <!-- action means that this the tag with the help of we jumped the user from one place to another place in the websites by clicking the the button   -->
+
+    <form action="/contat-me">
+        Username: <input type="text" placeholder="Enter your username" required="true"> <hr>
+        Password: <input type="password"> <hr>
+        <input type="Submit">
+    </form>
+
+    <!-- the label tag is used to provide the data from the input which means that with the help of this tag we click the text but also the checkbox button  -->
+
+    <!-- we provide the data in tha label for same as we provide in the input id -->
+
+    <form action="/contat-me">
+        <label for="email">  Username:</label>
+         <input type="text" id="email" placeholder="Enter your username" required="true"> <hr>
+        Password: <input type="password"> <hr>
+        <input type="Submit"> <hr>
+    </form>
+
+    <!-- we use input date to use date in the page  -->
+
+    <form action="/contact-me">
+       Date: <input type="date" > <hr>
+    </form>
+
+    <!-- we use input file to create the file choose option in the page  -->
+    
+    <form action="">
+       File: <input type="file"> <hr>
+    </form>
+
+    <!-- we use input color to create  the color chhosen option in the page  -->
+
+    <form action="">
+        Color: <input type="color"> <hr>
+    </form>
+
+    <!-- we use input range to provide range in the html page  -->
+
+    <form action="">
+        Range: <input type=" price range" name="" id=""> <hr>
+        Range: <input type="range"> <hr>
+    </form>
+
+    <!-- we use input button to create button in the page  -->
+
+    <form action="">
+        Button: <input type="button" value="click here"> <hr>
+    </form>
+
+    <!-- we use input radio to create radio button in the page  -->
+
+    <form>
+        <label for="male" > Male:</label>
+             <input type="radio" id="male" name="gender"> 
+
+        <label for="female" > Female:</label>
+             <input type="radio"  id="female" name="gender"> 
+
+        <label for="others" >Others:</label>
+             <input type="radio" name="gender" id="others"> 
+    </form>
+
+    <!-- we use input checkbox to create checkbox in the page  -->
+
+    <form>
+        <label for="Apple" >Apple:</label>
+             <input type="checkbox" id="Apple" name="fruits" value="Apple"> 
+
+        <label for="Mango" >Mango:</label>
+             <input type="checkbox"  id="Mango" name="fruits" value="Mango"> 
+
+        <label for="Orange" >Orange:</label>
+             <input type="checkbox" name="fruits" id="Orange" value="Orange"> 
+    </form>
+
+    <!-- we use select tag to choose one options from the given option  which means that we have to select our favourite option from the give options in which we also give option tag to provide the option to the user so that they can select -->
+
+    <form action="">
+        <label for="sports"> Choose your favourite sport</label>
+        <select name="sports" id="sports">
+            <option value="cricket">cricket</option>
+            <option value="football">football</option> 
+            <option value="kabaddi">kabaddi</option>
+            <option value="badminton">badminton</option>
+        </select>
+    </form>
+
+    <!-- we use textarea tag to use get the feedback and also provide to the user respectivally -->
+
+    <form action="">
+        <textarea  name="your feedback" id="feedback" rows="5" cols="50"> Give me your feedback </textarea>
+    </form>
+
+    <!-- we use iframe tag to use other websites in our websites -->
+
+    <iframe src="" frameborder="0" width="" height=""></iframe>
+
+
+</body>
+</html>
